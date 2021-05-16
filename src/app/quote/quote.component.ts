@@ -8,9 +8,9 @@ import {Quote} from '../quotes'
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[]=[
-    new Quote(1,'BOB MARLEY', 'Don’t gain the world and lose your soul. Wisdom is better than silver and gold.', 'Adam', new Date(2020,9,11)),
-    new Quote(2,'Johnny Cash', 'Trust gets yoSuccess is not final.failure is not fatal', 'Adam', new Date(2020,9,11)),
-    new Quote(3,'joker', 'Just smile', 'Adam', new Date(2020,9,11))
+    new Quote(1,'BOB MARLEY', 'Don’t gain the world and lose your soul. Wisdom is better than silver and gold.', 'Adam', new Date(2021,7,5)),
+    new Quote(2,'Mohamed Ali', 'Only a man who knows what it is like to be defeated can reach down to the bottom of his soul and come up with the extra ounce of power it takes to win when the match is even.', 'Adam', new Date(2021,2,11)),
+    new Quote(3,'Jack Handey', 'Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes.', 'Adam', new Date(2021,2,11))
   ];
 
   upVote(index) {
