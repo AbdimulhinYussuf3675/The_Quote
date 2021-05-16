@@ -10,4 +10,13 @@
     <button class="btn btn-primary" (click)='deleteQuote($event,i)'>Delete</button>
   </div>
 </div>
+    <app-form-quote (addQuote)="addNewQuote($event)"></app-form-quote>
+
+
+  <!-- <p>{{text}}</p>
+  <p>{{submitter}}</p>
+  <button>upVote {{bestQuote}}</button>
+  <button>Downvote {{worstQuote}}</button>
+  <button (click)='bestquote()'>BEST Quote</button>
+</div> -->
   
