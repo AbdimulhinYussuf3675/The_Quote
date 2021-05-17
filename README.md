@@ -20,7 +20,7 @@ To fix a bug or enhance an existing module, follow these steps:
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request
 ## Lanuages used
-   - TYPESCRIPT
+- TYPESCRIPT
 - CSS
 - HTML
    ### Live Site
