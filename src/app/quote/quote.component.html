@@ -1,22 +1,21 @@
 <div style="margin-left: 20%;">
     <h1 style="text-align: center;">Quotes</h1>
 <div *ngFor='let quote of quotes; let i=index'>
-    <p>{{quote.id}} , {{quote.author}}</p>
+    <p style="font-weight: bold;">{{quote.id}} , {{quote.author}}</p>
     <p>{{quote.name}}</p>
     <p>{{quote.submitter}}</p>
   
-    <button class="btn btn-primary" (click)='upVote(i)'>upvote {{quote.upVote}}</button>
+    <button class="btn btn-success" (click)='upVote(i)'>upvote {{quote.upVote}}</button>
     <button class="btn btn-primary" (click)='downVote(i)'>downvote {{quote.downVote}}</button>
-    <button class="btn btn-primary" (click)='deleteQuote($event,i)'>Delete</button>
+    <button class="btn btn-danger" (click)='deleteQuote($event,i)'>Delete</button>
   </div>
 </div>
     <app-form-quote (addQuote)="addNewQuote($event)"></app-form-quote>
-
-
-  <!-- <p>{{text}}</p>
+  
+  
+  <p>{{text}}</p>
   <p>{{submitter}}</p>
   <button>upVote {{bestQuote}}</button>
-  <button>Downvote {{worstQuote}}</button>
+  <button>downVote{{worstQuote}}</button>
   <button (click)='bestquote()'>BEST Quote</button>
-</div> -->
   
