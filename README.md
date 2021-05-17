@@ -22,9 +22,9 @@ To fix a bug or enhance an existing module, follow these steps:
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request
 ## built with
-   -HTML
-   -CSS 
-   -TYPESCRIPT
+   - TYPESCRIPT
+- CSS
+- HTML
    ### Live Site
 View [live]()
 
