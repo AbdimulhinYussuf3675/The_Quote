@@ -1,5 +1,3 @@
-## Author
-- [Abdimulhin Adan](https://github.com/AbdimulhinYussuf3675)
 # TheQuote
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
@@ -27,5 +25,6 @@ To fix a bug or enhance an existing module, follow these steps:
 - HTML
    ### Live Site
 View [live]()
-
+## Author
+- [Abdimulhin Adan](https://github.com/AbdimulhinYussuf3675)
 
