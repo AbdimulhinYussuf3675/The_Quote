@@ -1,23 +1,31 @@
 ## Author
 - [Abdimulhin Adan](https://github.com/AbdimulhinYussuf3675)
-# Quotes
+# TheQuote
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+<table>
+<tr>
+<td>
+  This is basically a  QUOTE app. that shows you the quotes. it has an input of the upvote and downvote
 
-## Development 
+## Support and contact details
+You can contact me through my email adamabdimulhi.001@gmail.com
 
-Want to contribute? Awesome! To fix a bug or enhance an existing module, follow these steps:
+### Development
+Want to contribute? Awesome!
+To fix a bug or enhance an existing module, follow these steps:
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
+## built with
+   -HTML
+   -CSS 
+   -TYPESCRIPT
+   ### Live Site
+View [live]()
 
-Fork the repo
-Create a new branch (git checkout -b improve-feature)
-Make the appropriate changes in the files
-Add changes to reflect the changes made
-Commit your changes (git commit -am 'Improve feature')
-Push to the branch (git push origin improve-feature)
-Create a Pull Request
-
-## Build with
-TYPESCRIPT
-HTML
-CSS
 
