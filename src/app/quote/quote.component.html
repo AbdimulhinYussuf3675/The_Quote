@@ -7,15 +7,16 @@
   
     <button class="btn btn-success" (click)='upVote(i)'>upvote {{quote.upVote}}</button>
     <button class="btn btn-primary" (click)='downVote(i)'>downvote {{quote.downVote}}</button>
-    <button class="btn btn-danger" (click)='deleteQuote($event,i)'>Delete</button>
+    <button class="btn btn-danger" (click)='deleteQuote($this.newQuote,i)'>Delete</button>
   </div>
 </div>
     <app-form-quote (addQuote)="addNewQuote($event)"></app-form-quote>
   
-  
+  <div style="margin-left: 30%;" >
   <p>{{text}}</p>
   <p>{{submitter}}</p>
-  <button>upVote {{bestQuote}}</button>
-  <button>downVote{{worstQuote}}</button>
-  <button (click)='bestquote()'>BEST Quote</button>
+  <button class="btn btn-warning">upVote {{bestQuote}}</button>
+  <button class="btn btn-danger" > downVote{{worstQuote}}</button>
+  <button class="btn btn-dark" (click)='bestquote()'>BEST Quote</button>
+  </div>
   
