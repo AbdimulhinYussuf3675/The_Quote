@@ -17,7 +17,7 @@
         <div class="form-group">
   
             <label for="date">SUBMITED ON</label>
-            <input type='date' id="date" [(ngModel)]="newQuote.date" name="date" #date="ngModel" required>
+            <input type='date' [(ngModel)]="newQuote.date" name="date" #date="ngModel" required>
             <div [hidden]="date.valid || date.pristine" class="alert alert-danger">
               <p>Date is required</p>
             </div>
