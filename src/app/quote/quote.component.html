@@ -7,7 +7,7 @@
   
     <button class="btn btn-success" (click)='upVote(i)'>upvote {{quote.upVote}}</button>
     <button class="btn btn-primary" (click)='downVote(i)'>downvote {{quote.downVote}}</button>
-    <button class="btn btn-danger" (click)='deleteQuote($this.newQuote,i)'>Delete</button>
+    <button class="btn btn-danger"(click)='deleteQuote($event,i)'>Delete</button>
   </div>
 </div>
     <app-form-quote (addQuote)="addNewQuote($event)"></app-form-quote>
